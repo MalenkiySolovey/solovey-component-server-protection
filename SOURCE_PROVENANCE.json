@@ -1,0 +1,2241 @@
+{
+  "schema": "solovey.component.source-provenance/v1",
+  "component": "server-protection",
+  "originalRepository": "https://github.com/MalenkiySolovey/solovey-ui",
+  "originalCommit": "1b6c5818c5bb0f03c879ec5580f967a5aa188396",
+  "filteredHistoryCommit": "2331f5c2861ffbb8c57c1556bdf242e4f5ede93e",
+  "historyPolicy": "Complete filtered feature ancestry retains original authors, commit messages and source blobs. Product-owned execution and durable adapters remain in the application.",
+  "originalLicense": "GPL-3.0-only",
+  "licenseSHA256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "manifestSHA256": "a5a860882a7655334cf1739a072a423875cb961511791f5206bfbbb65685d2ec",
+  "files": [
+    {
+      "source": "components/server-protection/domain/actions_v1.go",
+      "destination": "domain/actions_v1.go",
+      "originalBlob": "417daf170f0b1502005739a1a94fa673c99285a2",
+      "originalSHA256": "7d310d1f47a1715dca05ba6ee97279aae28a5f946147d4d47e2b700c45411592",
+      "destinationSHA256": "7d310d1f47a1715dca05ba6ee97279aae28a5f946147d4d47e2b700c45411592",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/actions_v1_test.go",
+      "destination": "domain/actions_v1_test.go",
+      "originalBlob": "d667214f5ef54afff89ec371c30453eb12c7b541",
+      "originalSHA256": "efd473d7626708a3ca623fc3b9cef1b53dc3ca8b77bfacd49a19186a18f3b4cd",
+      "destinationSHA256": "efd473d7626708a3ca623fc3b9cef1b53dc3ca8b77bfacd49a19186a18f3b4cd",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/contracts_v2.go",
+      "destination": "domain/contracts_v2.go",
+      "originalBlob": "481b02187b227abf76d7669f5c926b8a5a25665d",
+      "originalSHA256": "6666741bba84288f0b9448325178df708039bdfb8fa4d205083b45e1371924af",
+      "destinationSHA256": "6666741bba84288f0b9448325178df708039bdfb8fa4d205083b45e1371924af",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/contracts_v2_test.go",
+      "destination": "domain/contracts_v2_test.go",
+      "originalBlob": "6da3fd6c6dd8b27fecd368f1f0bc928dcaed8731",
+      "originalSHA256": "12d45d0e122c57877551500c6cf0b062ccfae10986017a282cc9f9390cf951cd",
+      "destinationSHA256": "12d45d0e122c57877551500c6cf0b062ccfae10986017a282cc9f9390cf951cd",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/contract_validation.go",
+      "destination": "domain/contract_validation.go",
+      "originalBlob": "6254cad9ae0ba85a556fd138944542b6c8ddfff2",
+      "originalSHA256": "2e724bcf18bdd58913cd4585134d5c36232502a5d2312fcdc15fc4ef3372a28e",
+      "destinationSHA256": "2e724bcf18bdd58913cd4585134d5c36232502a5d2312fcdc15fc4ef3372a28e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/domain_test.go",
+      "destination": "domain/domain_test.go",
+      "originalBlob": "61437f4d66e8ec5f28dc9a11a9445652e0649cb5",
+      "originalSHA256": "aab96aa287b8bbc9929f7836cc2327ae1db7f2dd4aa60d0e7d84699e07b3d783",
+      "destinationSHA256": "aab96aa287b8bbc9929f7836cc2327ae1db7f2dd4aa60d0e7d84699e07b3d783",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/enums.go",
+      "destination": "domain/enums.go",
+      "originalBlob": "4cdf129e00b51092f5903f9eccf4f8f9d34aa6c4",
+      "originalSHA256": "a1ab50b23555b2b446562e5083f69a57aabe252ff30458ebc7ee16af0fe22200",
+      "destinationSHA256": "a1ab50b23555b2b446562e5083f69a57aabe252ff30458ebc7ee16af0fe22200",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/graylist_v2.go",
+      "destination": "domain/graylist_v2.go",
+      "originalBlob": "1d4caab7bfbc7a7176f6b37d7c3aea5db6227f9b",
+      "originalSHA256": "66f579a16bceb7648ceab6865fdd8a0e297e8c995075de3158b3f4df3d73f5fd",
+      "destinationSHA256": "66f579a16bceb7648ceab6865fdd8a0e297e8c995075de3158b3f4df3d73f5fd",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/graylist_v2_test.go",
+      "destination": "domain/graylist_v2_test.go",
+      "originalBlob": "63e12a8e0422d7b2d42856921b5361a5661996dc",
+      "originalSHA256": "d6bbbf8df5d967f902d023042b9d8ea986f338889b9914fc1bc57df8826a4f71",
+      "destinationSHA256": "d6bbbf8df5d967f902d023042b9d8ea986f338889b9914fc1bc57df8826a4f71",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/native_fallback.go",
+      "destination": "domain/native_fallback.go",
+      "originalBlob": "3554f13d7db5eeab38c778e02d47e33fb2182889",
+      "originalSHA256": "f1ed0a661c33fac1e2ee3a4814dd5f566d628fed1f251e9a8ab369e046945a96",
+      "destinationSHA256": "f1ed0a661c33fac1e2ee3a4814dd5f566d628fed1f251e9a8ab369e046945a96",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/native_fallback_test.go",
+      "destination": "domain/native_fallback_test.go",
+      "originalBlob": "65ecb4b238c353c1624e5959b9f23a904c55165a",
+      "originalSHA256": "09827bbbc6ee8aff863fe0f26acfc190840d794224b59489115842cf63e0270e",
+      "destinationSHA256": "09827bbbc6ee8aff863fe0f26acfc190840d794224b59489115842cf63e0270e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/safe_meta.go",
+      "destination": "domain/safe_meta.go",
+      "originalBlob": "5552085ae907d0d65e9b336830566fce00cd0353",
+      "originalSHA256": "0d1d8e2b0ee4f659447864ae8c890c8f331b21f67170b8f01a183299cf5e8a64",
+      "destinationSHA256": "0d1d8e2b0ee4f659447864ae8c890c8f331b21f67170b8f01a183299cf5e8a64",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/settings.go",
+      "destination": "domain/settings.go",
+      "originalBlob": "59038f7f89ce62655c1bda90722786d1390b12b0",
+      "originalSHA256": "a84bf7d4e44b1fa48beb49a6cfabea6305d42a504430cca4ffd12f097f96d12e",
+      "destinationSHA256": "a84bf7d4e44b1fa48beb49a6cfabea6305d42a504430cca4ffd12f097f96d12e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/domain/signal_privacy.go",
+      "destination": "domain/signal_privacy.go",
+      "originalBlob": "f804450b327d5401b762db80c94923977ec36469",
+      "originalSHA256": "3abd12774c7de5dd08f011d82988f42c016527cdbff57ae87c3aacc248cf5499",
+      "destinationSHA256": "3abd12774c7de5dd08f011d82988f42c016527cdbff57ae87c3aacc248cf5499",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/decision/decision.go",
+      "destination": "service/decision/decision.go",
+      "originalBlob": "513ad39ace16af5892fae1aacc5cbd63f49e29b3",
+      "originalSHA256": "3d27a9bd8d60c9a99864e67f83fdab85a12611c4fad31b4279f8001e878445c2",
+      "destinationSHA256": "550221ec5a86c76a9a2dd91a56742478e5b1e70bbaf949182a25524b8ee54d40",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/decision/decision_test.go",
+      "destination": "service/decision/decision_test.go",
+      "originalBlob": "7c1e50f3659f5a503d65a355def70caeb5373de5",
+      "originalSHA256": "314e29b61155e3b1cdaa9c866c85de27dd6302bee9d0235bc36d4c0fa819553d",
+      "destinationSHA256": "2c07d5f793a6cd982be8408cbc7702e73c58e7d127a2e736f35056efb2c9c8f5",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/decision/scoped.go",
+      "destination": "service/decision/scoped.go",
+      "originalBlob": "d333ffd5eae179ef1dc40999b052a24ffeecdea9",
+      "originalSHA256": "dd8a5ed78aa0a6bd7ad0723e4b5ad55779a09284cbb4d58dc28b951c08c9c9a2",
+      "destinationSHA256": "3e38ebe4847a8a9a32439592bffcd1d3cdce1bbad59fa0260a44b5b82eb14935",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/decision/scoped_test.go",
+      "destination": "service/decision/scoped_test.go",
+      "originalBlob": "0a4dd25d9ec416cd4bd2775eab7a6084da1cc0af",
+      "originalSHA256": "e18a8b6edfa64034ea6d2ffffcd9e55259ca2de805d1ae807d6eb680916029e7",
+      "destinationSHA256": "32ea2d31638eec6c8d24656771e79207545d9b8a9a048255daf2a73c3e3a1acb",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/decision/v2.go",
+      "destination": "service/decision/v2.go",
+      "originalBlob": "096fd478570ec678198f022a27567d60bfdec321",
+      "originalSHA256": "7495b2b5d1deb2a0296bff3cd3221d85d3afe583d0b18c69318d409d133f71a4",
+      "destinationSHA256": "04d32a87799dee3f22ca4a04b94b3ef06cc1a31ab3daf8a43df7750068950360",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/scoring/scoring.go",
+      "destination": "service/scoring/scoring.go",
+      "originalBlob": "9419af1372b5bc618969c1298058b42e52c4ac69",
+      "originalSHA256": "b77ca745572ecdd0ce272f84902433704e1e497a2d036bd25449b5ef8ca2e01d",
+      "destinationSHA256": "aefc9179a0d842de6c4a347ae7bc28f52607962ef6ab4ff232791d3981d1e073",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/scoring/scoring_test.go",
+      "destination": "service/scoring/scoring_test.go",
+      "originalBlob": "ce5a1463a37e419bc47052290932d0fc5e3e2455",
+      "originalSHA256": "4c367afef713c55fe01d3c50dc0b0059adc4888bd1557e9fb12730dff27c24d3",
+      "destinationSHA256": "89a20fcca369a9fd52808e6d1454cc3854c794611f9a75d26e3bdeb604e8de71",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/policy/management.go",
+      "destination": "service/policy/management.go",
+      "originalBlob": "cd0219846078ae6a9cf5e6d2bab7576bc38b1c37",
+      "originalSHA256": "b0caf5e45d4ce79e73927ecca887c46471b41397160a10e8b6e606dcfdc1fb68",
+      "destinationSHA256": "2db850afa5ff75da58e86cf0ad025d52536e14830c2836e1657ed48f5157cd18",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/policy/management_test.go",
+      "destination": "service/policy/management_test.go",
+      "originalBlob": "e4549e7e1cb5bada9d019e89391287166e109367",
+      "originalSHA256": "c6f8d4ea6ab9284a921b3d0d12ea4bd8682b5eb0cd50d44438a3cb373cf80bcd",
+      "destinationSHA256": "ba59d4135521779766c8c6332c868511cf80b7f982f613d1fc39e7c868ab1e1b",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/policy/trusted_source.go",
+      "destination": "service/policy/trusted_source.go",
+      "originalBlob": "1b9896dc04a9fa46c0eed08d2e08098afc3ab541",
+      "originalSHA256": "f2d78c62bca91b3fd1f5e7f0d68ac471b7b6fc0f4746cb0d630e1047938d7691",
+      "destinationSHA256": "f2d78c62bca91b3fd1f5e7f0d68ac471b7b6fc0f4746cb0d630e1047938d7691",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/policy/trusted_source_test.go",
+      "destination": "service/policy/trusted_source_test.go",
+      "originalBlob": "f97a1c52de0ba242b98f7a1a05f25ddfae84cc64",
+      "originalSHA256": "4bc4fcf46bb5d5eb3b335ff53555676b3fb56b14453f73dc1e7baf1a71ecd7e8",
+      "destinationSHA256": "4bc4fcf46bb5d5eb3b335ff53555676b3fb56b14453f73dc1e7baf1a71ecd7e8",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/response/resolver.go",
+      "destination": "service/response/resolver.go",
+      "originalBlob": "7d477ffc938c5af61e904757bce3e5505781a7ac",
+      "originalSHA256": "d9731893126e7b69b46983578e30faefdd404bde4d74573e213217d865d2f987",
+      "destinationSHA256": "dc01fa69665bb8d213ac00952504e3f9632a0f997e8780c0da23e2eefc76c123",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/response/resolver_architecture_test.go",
+      "destination": "service/response/resolver_architecture_test.go",
+      "originalBlob": "67ec2939c0897c3e0dbc9b5c6b8e939d52886070",
+      "originalSHA256": "b942eaf4cf7d3ee753460658edc78d222b86ee5fbe429f1aad76987ee813b377",
+      "destinationSHA256": "b942eaf4cf7d3ee753460658edc78d222b86ee5fbe429f1aad76987ee813b377",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/response/resolver_test.go",
+      "destination": "service/response/resolver_test.go",
+      "originalBlob": "8571a72863c543d32f5a5bf37c7f6fb227e92b33",
+      "originalSHA256": "a794ca3e2ffce06302ecad5946f779acc679ab6d6fce457131b3e519d2989499",
+      "destinationSHA256": "06f2a68060a6ba42317adb870374b5e473d3fc26367c09d36691b4fa5b1cd64f",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/enforcement/actions.go",
+      "destination": "service/enforcement/actions.go",
+      "originalBlob": "692e8f47574d966196bb5bab2a26f04dc3ca3a74",
+      "originalSHA256": "d8b43dadf89941ad2d72568825a47fd26077ac7ad638940f33f24c597b25a79d",
+      "destinationSHA256": "952749af4545ba6d648e2a69a733e457630bfa7ab1c151fd3c86762e771291d7",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/enforcement/actions_test.go",
+      "destination": "service/enforcement/actions_test.go",
+      "originalBlob": "97da5fa94215edd93fbc3f52501a2315f19fac8c",
+      "originalSHA256": "c258470bde7a36fdf70a8b4ea7265e92f8401a4a9796dc1c4b5bf0b04109195d",
+      "destinationSHA256": "44704714079b45f7fb0635c8ee0adaeeac0d72682baf5d54ef648b08f6187b50",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/enforcement/intent.go",
+      "destination": "service/enforcement/intent.go",
+      "originalBlob": "51232f571b33e86592e2bbc78490c27de2bc13a0",
+      "originalSHA256": "b75880a6d3c6a422115f34ceeb1ad7c24b5d4d1dada6cec7593b9b67be0302c0",
+      "destinationSHA256": "c1a36ab4df1bbe15c002e936f515059e74742168db50808428c4a69a4058cd5a",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/collision.go",
+      "destination": "service/resources/collision.go",
+      "originalBlob": "5e917a27671ec32924a8bb7280f859b82661139d",
+      "originalSHA256": "50ae2aa4df04a192b9ce96f133bc5a3f3252b22ae8074b5e78c453a4398add21",
+      "destinationSHA256": "50ae2aa4df04a192b9ce96f133bc5a3f3252b22ae8074b5e78c453a4398add21",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/collision_test.go",
+      "destination": "service/resources/collision_test.go",
+      "originalBlob": "f6ce965fe16e0a2e837f2f7da583277c184f1709",
+      "originalSHA256": "a0b3fdb1cb20ad44675d064e30a4f87998a1fed20aa494361aae730115ae271c",
+      "destinationSHA256": "a0b3fdb1cb20ad44675d064e30a4f87998a1fed20aa494361aae730115ae271c",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/graph.go",
+      "destination": "service/resources/graph.go",
+      "originalBlob": "a28a20a97c9cba9017a5fe470a852d8156eb896d",
+      "originalSHA256": "8eb1bf78b4b6b36c1ca91362f6f24a034664a55b86ff5738b3cdf663f6e9ae34",
+      "destinationSHA256": "8eb1bf78b4b6b36c1ca91362f6f24a034664a55b86ff5738b3cdf663f6e9ae34",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/graph_evidence.go",
+      "destination": "service/resources/graph_evidence.go",
+      "originalBlob": "c75fb8ffe5297aea20697b2846d21bcd9d0e798e",
+      "originalSHA256": "801033bbfac0a15b12fd6a2838837b2ca944eb69108ebc377abb366f740bfb86",
+      "destinationSHA256": "801033bbfac0a15b12fd6a2838837b2ca944eb69108ebc377abb366f740bfb86",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/graph_evidence_test.go",
+      "destination": "service/resources/graph_evidence_test.go",
+      "originalBlob": "1f8cfac9739c1bda7d5ce4daab76f553c01aa112",
+      "originalSHA256": "5e0fbfa6a0150c52bf84864d6c83979b9c9dbe1773b895e97032c577080a0658",
+      "destinationSHA256": "5e0fbfa6a0150c52bf84864d6c83979b9c9dbe1773b895e97032c577080a0658",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/graph_procd_test.go",
+      "destination": "service/resources/graph_procd_test.go",
+      "originalBlob": "2f7b077d52b741ec54aebfdd9c7a235fa99cef85",
+      "originalSHA256": "3564a6fa6c7339b694e181ad24c69bbc5ed967d071063e72bd42515fe558d66f",
+      "destinationSHA256": "3564a6fa6c7339b694e181ad24c69bbc5ed967d071063e72bd42515fe558d66f",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/graph_test.go",
+      "destination": "service/resources/graph_test.go",
+      "originalBlob": "51b9486e430a06c493494d202db4cb8baacf0674",
+      "originalSHA256": "1f5dea5013e22829f90163e9db8599f8ceac1cd61b01882792ddb2c34f40ba16",
+      "destinationSHA256": "1f5dea5013e22829f90163e9db8599f8ceac1cd61b01882792ddb2c34f40ba16",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/inventory.go",
+      "destination": "service/resources/inventory.go",
+      "originalBlob": "35b4ffef2646d5777635edeaa19e1699afd1d9db",
+      "originalSHA256": "07f8e6cc3a0ebe66c691e17758cce88d15107333d0f3b4a8db498debbafc9011",
+      "destinationSHA256": "07f8e6cc3a0ebe66c691e17758cce88d15107333d0f3b4a8db498debbafc9011",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/inventory_test.go",
+      "destination": "service/resources/inventory_test.go",
+      "originalBlob": "1f407f3146c03d66927a313488619dcb28f77da9",
+      "originalSHA256": "d075a5628f9a71cf4ad6ac246f72ec656a98a985616bdddba4e1ba24b55dbdd3",
+      "destinationSHA256": "d075a5628f9a71cf4ad6ac246f72ec656a98a985616bdddba4e1ba24b55dbdd3",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/resources/listener_owner_graph_test.go",
+      "destination": "service/resources/listener_owner_graph_test.go",
+      "originalBlob": "39076f66966aa72ccb5bd3d16e7a7e7adff8d963",
+      "originalSHA256": "1cde2c8e551e10babc66d03d4825090b06174baa525b924dcfd4ebb9067888ad",
+      "destinationSHA256": "1cde2c8e551e10babc66d03d4825090b06174baa525b924dcfd4ebb9067888ad",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/events/contracts.go",
+      "destination": "service/events/contracts.go",
+      "originalBlob": "735f45fb5bafde93e54d43f5a8d2b6688db78bfd",
+      "originalSHA256": "09c77a807e5018e3b5a2232c623b196659f6368e9d7d284cc3cf8df0202a7ae7",
+      "destinationSHA256": "a5b2b82834c9ce5d5dd01f4eadf4c939e8d8561680a190116b897643c6c2907b",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/events/contracts_test.go",
+      "destination": "service/events/contracts_test.go",
+      "originalBlob": "8711e414eaa7c7ab5f4c3c0c907d968ab4208414",
+      "originalSHA256": "f9efebcd5a692bd513232f726ff6aa8d3878c51745cd04c2c1df51733069a438",
+      "destinationSHA256": "f9efebcd5a692bd513232f726ff6aa8d3878c51745cd04c2c1df51733069a438",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/events/v2.go",
+      "destination": "service/events/v2.go",
+      "originalBlob": "0c108d8a2d118d58201e961cf91e26093a961165",
+      "originalSHA256": "b9b0f2566be46055a42e02764113cc56bf55c2322166c2cea0472ef26a268140",
+      "destinationSHA256": "5502b6dae60ad8be6fff838dd20ba788a2a583426576c2c902e49a894f40d622",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/events/v2_test.go",
+      "destination": "service/events/v2_test.go",
+      "originalBlob": "97a5228e845b3a021f56351ed608e9e0e1108702",
+      "originalSHA256": "0c2f07848735cc157e27341540d4929b5acada4c4496f72aae60904444a67b49",
+      "destinationSHA256": "e29e4564482e64221f9cd6d240665075fdaaf3fa6e70c1b026b645447268cd0d",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/observationio/ports.go",
+      "destination": "service/observationio/ports.go",
+      "originalBlob": "a1b1dc827ed360bce24af1092dddd39d88a1aeb5",
+      "originalSHA256": "a72fd10afd4259ff232293549b92449329e8642be3072e2d27b4bfca8f937e97",
+      "destinationSHA256": "0f9be098d55d7a9f426643e2b3e632866e39626f8d6f2e1a4e70226c7eaa9f0f",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/observation/worker.go",
+      "destination": "service/observation/worker.go",
+      "originalBlob": "e3ade8f8dbed3c039d0acd3da23e231cd26c65f5",
+      "originalSHA256": "14e289969e0ecd0f6a69132d2ab5dbcfdc69265f8b3ac3725c9a12c97e4e52a3",
+      "destinationSHA256": "0bbf51d5ffbeae620488b57c0685f262304578dc5d7d06b2894ad536b7aa8da7",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/observation/worker_ports_test.go",
+      "destination": "service/observation/worker_ports_test.go",
+      "originalBlob": "f5a160af9595206b479d365bf3283c7e27e746f3",
+      "originalSHA256": "1a36da4a7bdc9b915faae1b3d5a52c2a1c7059c5c15052a3e5466a4d536549bb",
+      "destinationSHA256": "bca307424a77d7fde78d981f71c1d55aae36ed4fd3c6360713267e11a259780d",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/durable/contracts.go",
+      "destination": "service/durable/contracts.go",
+      "originalBlob": "993f9fe34870ceeb0e46aa84ce4138f3daf044c9",
+      "originalSHA256": "2aad33b8c952e83e03742d8aee6dd66ac2813ee3f2b076434834b9288c73209a",
+      "destinationSHA256": "fb59a2ff4ee3a2c261a1d0a37a52e0a88b8c41310a1d3a0e2bf8c4de9e5c8b0b",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/durable/diagnostic.go",
+      "destination": "service/durable/diagnostic.go",
+      "originalBlob": "9676bdd9a4d839ec86177ad0cb02bd30df145db0",
+      "originalSHA256": "c7de19f9cf0183361a35c678566c461850af651fb0c73c5091e90fb97bc62a92",
+      "destinationSHA256": "c7de19f9cf0183361a35c678566c461850af651fb0c73c5091e90fb97bc62a92",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/operations/admission.go",
+      "destination": "service/operations/admission.go",
+      "originalBlob": "08e998dc5d2b81207e33ba754354c9a1a19007dd",
+      "originalSHA256": "8a4f4316e8b5caf00944a311a6865a3ddfbdda281aff2d79427383b857af8b3a",
+      "destinationSHA256": "8a4f4316e8b5caf00944a311a6865a3ddfbdda281aff2d79427383b857af8b3a",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/operations/admission_ports_test.go",
+      "destination": "service/operations/admission_ports_test.go",
+      "originalBlob": "58b7cc7bed86728c18fb1f713400a3b8cbecb8ec",
+      "originalSHA256": "add74374969f65919b07f5b64f16ab4a9ec0a89816e19733498e04a62571a4cd",
+      "destinationSHA256": "add74374969f65919b07f5b64f16ab4a9ec0a89816e19733498e04a62571a4cd",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/operations/manager.go",
+      "destination": "service/operations/manager.go",
+      "originalBlob": "6b02fb3ab11b9f688046bd186e13431df042de53",
+      "originalSHA256": "8a45d494c1ff624127565edf5668263a04e696ddcbd78a8fd67309360fa7a310",
+      "destinationSHA256": "27bbbec71530135923874a323951b461c3d081b05987b3ad6f264fa013459a00",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/operations/pid_unix.go",
+      "destination": "service/operations/pid_unix.go",
+      "originalBlob": "a88bb4d5ac136e45cdd5d3325a18f44eac452f04",
+      "originalSHA256": "ad50859e658343c80546146c9a88a42c3657e15e8e678c124fc27e943fbf98e8",
+      "destinationSHA256": "ad50859e658343c80546146c9a88a42c3657e15e8e678c124fc27e943fbf98e8",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/operations/pid_windows.go",
+      "destination": "service/operations/pid_windows.go",
+      "originalBlob": "ea80175d3d4ba659b768c5bf1da0fef14a81ee09",
+      "originalSHA256": "40d320354ca71b4ee9e2c1b4e9030cb417a1c2527e3bde27e5f2875edc21140f",
+      "destinationSHA256": "40d320354ca71b4ee9e2c1b4e9030cb417a1c2527e3bde27e5f2875edc21140f",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/operations/runtime_recovery.go",
+      "destination": "service/operations/runtime_recovery.go",
+      "originalBlob": "5ba9344c72e3b865e9aa1b25da954d6d55db72b4",
+      "originalSHA256": "62747b5a0aa67f44271ec02733c662ce1cb3f32090589bc8648c0b920aed5932",
+      "destinationSHA256": "fb81ad143b1221fecc539e855d2f41c6f5f2018a476a946b3378f966ac53daa5",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/helpercontract/capabilities.go",
+      "destination": "service/helpercontract/capabilities.go",
+      "originalBlob": "4f7bbde684411b391e84a43c160a7888730a3aa6",
+      "originalSHA256": "ec8a10f6d294f0a38578fe8541029a88a810c2fb1df44a80a9f89e28327ed14a",
+      "destinationSHA256": "ec8a10f6d294f0a38578fe8541029a88a810c2fb1df44a80a9f89e28327ed14a",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/helpercontract/contract_test.go",
+      "destination": "service/helpercontract/contract_test.go",
+      "originalBlob": "09d780b54e7bfa9ee965e3b8210b4751663dc1c1",
+      "originalSHA256": "b7a9faa44e472e5982b6f14d1d7ae6f78e856652f7179b51bc4f057504e5ed00",
+      "destinationSHA256": "b7a9faa44e472e5982b6f14d1d7ae6f78e856652f7179b51bc4f057504e5ed00",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/helpercontract/execution.go",
+      "destination": "service/helpercontract/execution.go",
+      "originalBlob": "64da4c5e886c39cac74a89e6ae937001a7a67f52",
+      "originalSHA256": "4e333cb81af6de07f3779e730056d123a9da64cf74effdb020bda5b6541d0624",
+      "destinationSHA256": "4e333cb81af6de07f3779e730056d123a9da64cf74effdb020bda5b6541d0624",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/helpercontract/listener_owner_validation.go",
+      "destination": "service/helpercontract/listener_owner_validation.go",
+      "originalBlob": "ffd09b1ea6bae26815f60647592b59a8c74ab5b1",
+      "originalSHA256": "49d7ce3001e5aedf00b06d4347880321b7aaf5e33f897210221cc164c9b93654",
+      "destinationSHA256": "49d7ce3001e5aedf00b06d4347880321b7aaf5e33f897210221cc164c9b93654",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/helpercontract/protocol.go",
+      "destination": "service/helpercontract/protocol.go",
+      "originalBlob": "0c024ee116de8a8d403f80695cf4dab6043c9731",
+      "originalSHA256": "c2721ad8818ca60ad59260d69388c7e038c92166724cb69b70d64fb67f6d8353",
+      "destinationSHA256": "c2721ad8818ca60ad59260d69388c7e038c92166724cb69b70d64fb67f6d8353",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/helpercontract/ssh_recovery_validation.go",
+      "destination": "service/helpercontract/ssh_recovery_validation.go",
+      "originalBlob": "ffdcf3576e0e82689596b41c8659566cbd917300",
+      "originalSHA256": "689f2aea232cbf519f8ff93e62f2497720d094c32666f3bc054e965dae57cad6",
+      "destinationSHA256": "689f2aea232cbf519f8ff93e62f2497720d094c32666f3bc054e965dae57cad6",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/health/health.go",
+      "destination": "service/health/health.go",
+      "originalBlob": "296bd3448ea7e95508c341bc2f6f8efe0f2306fa",
+      "originalSHA256": "0231bb1cfe0ac701005367687fcf1cc24bccaa34baa0b2b1ed6c586f74bdeb70",
+      "destinationSHA256": "0231bb1cfe0ac701005367687fcf1cc24bccaa34baa0b2b1ed6c586f74bdeb70",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/health/health_test.go",
+      "destination": "service/health/health_test.go",
+      "originalBlob": "819ab136ac5c0c30771af70895370e3b8b4cabc6",
+      "originalSHA256": "508a229e2263816122e1bdac007f6d9b56d80f35213b13a1a7061f366286af7f",
+      "destinationSHA256": "508a229e2263816122e1bdac007f6d9b56d80f35213b13a1a7061f366286af7f",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/graylist/admission.go",
+      "destination": "service/graylist/admission.go",
+      "originalBlob": "0459f3acb8ba0bdb576cd3d4240b137febf2dc15",
+      "originalSHA256": "0da5bcfd37e39f4a6321546e9eb3b568dc72aa74295d3c2817549d5373300ff0",
+      "destinationSHA256": "e37a9d2281b8f9c5601181d437e069f490f285f8c2c789f83752d559034b8ce8",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/graylist/graylist_test.go",
+      "destination": "service/graylist/graylist_test.go",
+      "originalBlob": "0fdc6a75f066b8f2aa4157e1933750f1c4282679",
+      "originalSHA256": "54d9ca6d20ceda81451a1e192002998c8cbdf876f746f5d867e0bff413408111",
+      "destinationSHA256": "717cb07321bcc2986a4434beff4d5c7a409af467ed25d903e014f346c90d0397",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/graylist/pipeline.go",
+      "destination": "service/graylist/pipeline.go",
+      "originalBlob": "cbd58c2e65898cb860bdc5d61a30cdf1f3a1ea8e",
+      "originalSHA256": "ddbaf91e87d36b509536a66d84c03b2853202348d600b2c84a3afc64aecfb7d9",
+      "destinationSHA256": "cc8d85b28a2c209a8d98fea9934b2268f949d40960db19b25fbaeaa472631cc5",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/graylist/state.go",
+      "destination": "service/graylist/state.go",
+      "originalBlob": "deab155dcc6fa7b65c3532da992c804aa04fb227",
+      "originalSHA256": "97308e1c63aedbc8d803a8f773466039b23b0c3eb9d16f90699660f05c925893",
+      "destinationSHA256": "acd0efbfe2c0aeb33f2352e2e19962fc26a3fe1c3bb522ca0a3f2c5f267e8c27",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/interception/owners.go",
+      "destination": "service/interception/owners.go",
+      "originalBlob": "83120b814f1c03c403c5d0f2ca0ec05e327c14e0",
+      "originalSHA256": "74819574758dc152bc041a2ce15aff3b93d066921a0e98117d10e0b9f7270e19",
+      "destinationSHA256": "74819574758dc152bc041a2ce15aff3b93d066921a0e98117d10e0b9f7270e19",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/interception/owners_test.go",
+      "destination": "service/interception/owners_test.go",
+      "originalBlob": "0c1c3cce88d262159a2e495b026c32f56611e6fb",
+      "originalSHA256": "546b725d5d8ad0e3220f7894cded02ef0ca4eb73c9e19528653957740c735c4e",
+      "destinationSHA256": "546b725d5d8ad0e3220f7894cded02ef0ca4eb73c9e19528653957740c735c4e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/interception/service.go",
+      "destination": "service/interception/service.go",
+      "originalBlob": "ebce4466667fabf90690f305e86c9fa84a6b8aab",
+      "originalSHA256": "bf60449ad5d65506afa1944876fac4d7b195ac7c926ed97eb9edad8b6e788580",
+      "destinationSHA256": "bf60449ad5d65506afa1944876fac4d7b195ac7c926ed97eb9edad8b6e788580",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/durable_store.go",
+      "destination": "service/localproxy/durable_store.go",
+      "originalBlob": "e888cef344782de7152b905f909b44f7c78a4c4f",
+      "originalSHA256": "de7be99049788f933e5e770907ebe63887668102bf2c06bbb1456cc2a1998d79",
+      "destinationSHA256": "edb06b37b3235b519c8c0536095c4b560ab42a41793a663c4f2435256d731d1f",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/errors.go",
+      "destination": "service/localproxy/errors.go",
+      "originalBlob": "476e65cdbfd53d3c750cf0f21d96c494d96d78c2",
+      "originalSHA256": "f470bb59fca67fa03183aa8d21622cf9dc0831d4e59b8fa052072c7616761c94",
+      "destinationSHA256": "f470bb59fca67fa03183aa8d21622cf9dc0831d4e59b8fa052072c7616761c94",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/owners.go",
+      "destination": "service/localproxy/owners.go",
+      "originalBlob": "77dbb1d85594f9aee5b48af0795d955bf6089edc",
+      "originalSHA256": "99a17737a9a1b53d6136afe208d78e691fe07dede94c7dfd7b45b4bb6a222549",
+      "destinationSHA256": "99a17737a9a1b53d6136afe208d78e691fe07dede94c7dfd7b45b4bb6a222549",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/owners_test.go",
+      "destination": "service/localproxy/owners_test.go",
+      "originalBlob": "d97593ff2f4940e3bc62549c664e84add76c11c9",
+      "originalSHA256": "808f77c043cf494182f90a0db4e291c46d23d65419e5c4360295bdbd05c5d967",
+      "destinationSHA256": "1bdd56ad8604e117f738c974dd5a7a14457d70a216cbda28d30ce46a1cc9316f",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/planner.go",
+      "destination": "service/localproxy/planner.go",
+      "originalBlob": "54fff850a75595b563bb8902e276710cb9f9af59",
+      "originalSHA256": "d0cf3409520c49ca578eb1fc3ad40178993f0160f890d436c32dffe1f78f93a2",
+      "destinationSHA256": "751f58682374d551262f2e0404a2249918afd8fa12d008e8c084fe96ed685d09",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/receipt_expiration_test.go",
+      "destination": "service/localproxy/receipt_expiration_test.go",
+      "originalBlob": "3a1d3e83828edd7972c229fa2a8d5636bb05fb62",
+      "originalSHA256": "a82324c2a08b0dd9bf60f0077c9f39e08bea266ad18ffdb7c899f3d56da8b484",
+      "destinationSHA256": "88a6bb0c9f3392838a8bdf0f35d4758c9de92dca481d31e6f958b9f9ecfb6ce2",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/reconcile.go",
+      "destination": "service/localproxy/reconcile.go",
+      "originalBlob": "0f8c53400b074a3eb88e4530c7c67c03e5acc4cf",
+      "originalSHA256": "d0a352581979117a3031e1c41c7e8c81f758e2209dec21ba491d74b2826cc490",
+      "destinationSHA256": "73c1efd29976e81c1e2a34c15e05e3c86eb04efb4c75f2cd23d37481c9664d2d",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/types.go",
+      "destination": "service/localproxy/types.go",
+      "originalBlob": "333c113e42fde4472af9c5ffd51f8932e7f13eba",
+      "originalSHA256": "6c123780d40b778188081eae41023bd0138f51bda6542c173c5dcbef92615942",
+      "destinationSHA256": "6c123780d40b778188081eae41023bd0138f51bda6542c173c5dcbef92615942",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/localproxy/workflow.go",
+      "destination": "service/localproxy/workflow.go",
+      "originalBlob": "3ea266da24048219443904d149bfff5492d74a69",
+      "originalSHA256": "6dce5eb7791e147ad4e3c99e156711afa6a4554069fce1d7a2c47d9fae109449",
+      "destinationSHA256": "62a4cccfde0af91b2400ffd823629db5765663cb1d2568126ab9e9b7d088441e",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/artifactcontract/manifest.go",
+      "destination": "service/artifactcontract/manifest.go",
+      "originalBlob": "99f0044bd5022230457ffe0a1b93288521bdb2e4",
+      "originalSHA256": "0350c28a1b8c9dc32ec8afeb736c10b39f279c8884891baa645a8ddaae93378e",
+      "destinationSHA256": "0350c28a1b8c9dc32ec8afeb736c10b39f279c8884891baa645a8ddaae93378e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/baseline.go",
+      "destination": "service/firewall/baseline.go",
+      "originalBlob": "ef3ab3afe5049fe53d0f072b37442da0935ec2f3",
+      "originalSHA256": "9584d5e5b590f8dc1dfd4ffd9e0c7ab3d7745954ac289290ac711f536b9c3428",
+      "destinationSHA256": "da23932485d0ebd71ab6fe5c0e905e7d43128d9a88b506f6718f67b91cb4e2c6",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/baseline_sources.go",
+      "destination": "service/firewall/baseline_sources.go",
+      "originalBlob": "957fc194a7d7f69d39a7df5000f77fe82e13ca28",
+      "originalSHA256": "4b668930960a8a1cb356ad1e5a1c176dc3fcbcccd9868ef7e708ff8c169acdd6",
+      "destinationSHA256": "10869210ee8b62d0e6ccaa260e401d0c4384013aca579fe2238738481aa16629",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/baseline_sources_test.go",
+      "destination": "service/firewall/baseline_sources_test.go",
+      "originalBlob": "63c12c18219c871b3b74c742cc826ba2f5f44c3f",
+      "originalSHA256": "a2ffe5393d65d00b2935bdca33495328ecfc1dd60dd3026f5e0242eba0ad6a24",
+      "destinationSHA256": "9da8700a8738a6c92ed64b6bcb7be5678449904dae6523c4073edc4676d347f1",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/composition.go",
+      "destination": "service/firewall/composition.go",
+      "originalBlob": "c1cf3d4a91e3dc88e8791b1fe2eda59581d133db",
+      "originalSHA256": "7cf9f073d5d2f9b6ac1279503cfaa7c3f71b5cf442edae2a13ce6182ba837729",
+      "destinationSHA256": "ebce27903f60983b386f202278c9b822505e51378a79931dccba06398e3a7588",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/durable_store.go",
+      "destination": "service/firewall/durable_store.go",
+      "originalBlob": "d4abd25eeefc165bca2610fcf622eb45399beb0a",
+      "originalSHA256": "c9fa247c7af2006c2d82e4e5a98b3a0483d5e3f3873b69be099faec48e2859c0",
+      "destinationSHA256": "c089e3dac986b8105bf27ae712e8ac80abda2804ed8a6251a36b80ec4947527d",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/eligibility.go",
+      "destination": "service/firewall/eligibility.go",
+      "originalBlob": "26037f2a8aa1565d8eab3b52d60162e8691b10c6",
+      "originalSHA256": "66974fa2b493135ad51ea28928fa7ec2d4227b94fa63a1022894ba67ec6f5f86",
+      "destinationSHA256": "870f1cb83f835bbd37c4c5be8882ef62b645d29cbdc5d11ba65191ac2e82e387",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/endpoint_nft.go",
+      "destination": "service/firewall/endpoint_nft.go",
+      "originalBlob": "1503d29965d6e4b150674eafb14e20a1bc2d27d4",
+      "originalSHA256": "ed3e3053e9f9d801813dd44ffcfffde2a1ebc9cec4f67df2a2a6ad3c2bcdf6b3",
+      "destinationSHA256": "ed3e3053e9f9d801813dd44ffcfffde2a1ebc9cec4f67df2a2a6ad3c2bcdf6b3",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/endpoint_plan.go",
+      "destination": "service/firewall/endpoint_plan.go",
+      "originalBlob": "a13702b95208f47f5ae787b1c874978b039a2af6",
+      "originalSHA256": "246621b7fcfce996bb31d8e2409f7305b9c528bcdeed36efdca908fb1636fb1e",
+      "destinationSHA256": "40ae4fc2285c39d86eac38155aa420023f92052905530930edd1fa4cdc27ea13",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/network_intent.go",
+      "destination": "service/firewall/network_intent.go",
+      "originalBlob": "e55e70e5db09ebcc771887832d867e410830ef0a",
+      "originalSHA256": "7e6cc8616dc951cdbf498ed8b31a89645ca7fd8d9c725a7070ac1988083e7025",
+      "destinationSHA256": "b5c406a6f9bdc4cf28bdf3456b2e9daa55fc6b598bd3cf2dd44fbf1d83f55904",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/network_lifecycle.go",
+      "destination": "service/firewall/network_lifecycle.go",
+      "originalBlob": "b69c3b966cdbb29b41205662b9a3414fc2cffd8a",
+      "originalSHA256": "26d3a1ce8e9b7c036cf08774a0e166519d6fa19805cc9fb480e277e219d5c2a3",
+      "destinationSHA256": "3cc4ead6492796f41d061cdbb2eec620b762cfd3d9cfb3e7444ac57358119f9c",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/network_plan.go",
+      "destination": "service/firewall/network_plan.go",
+      "originalBlob": "6ff56ab1434cd8864c61457fad17f96e1e77a6c8",
+      "originalSHA256": "5261493114cffcf327131db85b408e8a7ec115de6f4bbea06e9e23c3dcf8630f",
+      "destinationSHA256": "d47269fd283ae2f7e808af798c996fffd5a1ced817571380c302f09215120d9a",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/nft_codec.go",
+      "destination": "service/firewall/nft_codec.go",
+      "originalBlob": "d1f5e3a4fa60de75db574ebf65615df265286c65",
+      "originalSHA256": "d81b46b2c53266cab72904201046988abb6354de2865f2ff1e8887d332b0b440",
+      "destinationSHA256": "d81b46b2c53266cab72904201046988abb6354de2865f2ff1e8887d332b0b440",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/nft_codec_test.go",
+      "destination": "service/firewall/nft_codec_test.go",
+      "originalBlob": "ffa9a508feacebfacf70abe6b4417621310c1949",
+      "originalSHA256": "5f5d133425c29df14816c387a953adaef7b98451198f81817b164e99db9676df",
+      "destinationSHA256": "308c17b669083f690f66c448ed69240eceebbb02452b379037b0af517649bcd9",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/operator_resolution.go",
+      "destination": "service/firewall/operator_resolution.go",
+      "originalBlob": "f722115729e07fef03d4cf904c09f79c4a552454",
+      "originalSHA256": "cca5bb88456bf279ebd6315f4148fbfb19712edd2fab273e8ca9d8ea3f76b97e",
+      "destinationSHA256": "9bd238555cadfac639338b3026f6d88cd7ae3a7872b7ca19815a521e7d41c6d3",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/owner_posture_test.go",
+      "destination": "service/firewall/owner_posture_test.go",
+      "originalBlob": "7c7a328f19dff31e0942ca44d29b2f9e3352cca7",
+      "originalSHA256": "a3ae85dad79c2f394dc6246138e4063638678ea7e49007fb08043359fcd34635",
+      "destinationSHA256": "a3ae85dad79c2f394dc6246138e4063638678ea7e49007fb08043359fcd34635",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/plan.go",
+      "destination": "service/firewall/plan.go",
+      "originalBlob": "c708a5882829d3c0efae7337041df6e9831caf08",
+      "originalSHA256": "2977d858b725e9b317af44369ea4a53390b4540287fbd2f5b0e5c11ba12b6c1b",
+      "destinationSHA256": "b76c1776a193b6d077cec74fc476e7381f534bf269514e45a1fb06db1856cfc1",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/planner_owner.go",
+      "destination": "service/firewall/planner_owner.go",
+      "originalBlob": "40c2af8739421eb15d0d4b80895f8dba40e08a59",
+      "originalSHA256": "aaabbf2266bdc68fcf0171f44557c9ea56d97a3c950bb04b8be62b8a517828ce",
+      "destinationSHA256": "aaabbf2266bdc68fcf0171f44557c9ea56d97a3c950bb04b8be62b8a517828ce",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/planner_owner_test.go",
+      "destination": "service/firewall/planner_owner_test.go",
+      "originalBlob": "75991585243bcb97d61d35c947c62b31d90af240",
+      "originalSHA256": "1cfc78bd8954a89029f1112d260b461611fc276ce1236498e587449d78ac0d20",
+      "destinationSHA256": "b7744b703122754e8fbe65c54cc80fa98ceea07c54614babc61367f4999ee6e0",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/preview.go",
+      "destination": "service/firewall/preview.go",
+      "originalBlob": "6fd4cb5989e5b43e0586e83ddade9e258e0524f8",
+      "originalSHA256": "d15d1d6e882902f2d18351fe557188fdba09cf15042d2b0ccbaa871439b5a563",
+      "destinationSHA256": "d15d1d6e882902f2d18351fe557188fdba09cf15042d2b0ccbaa871439b5a563",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/reconcile.go",
+      "destination": "service/firewall/reconcile.go",
+      "originalBlob": "c64016545a954e9e3efce559e94607ba6bf4fba0",
+      "originalSHA256": "6028a03f09cb58188f6a6eea6a138afafda6d9602467568106e889ce8c97dcb6",
+      "destinationSHA256": "38099ddc3af117641a0141ba008b854ce1777a41e3a2a1b97aa6dfe3b1427b1a",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/recovery.go",
+      "destination": "service/firewall/recovery.go",
+      "originalBlob": "6e810e9c66f736bbd19b47bf1cb2d14dfd6b3720",
+      "originalSHA256": "36a9aea702d99531bc509eec2b9b2fb0ab8c56a369fdd9dae34a457967bda12e",
+      "destinationSHA256": "cf888ba3496cb93f4685c776aa405859b42de5c31ffebce73d492f1810192690",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/recovery_owner_test.go",
+      "destination": "service/firewall/recovery_owner_test.go",
+      "originalBlob": "2234e9037883a2b44f7576930a7e7eba05f64707",
+      "originalSHA256": "d232c43833ac8de0163e4b1b36a6358215b74a5c37330cab0fa629fcae191fac",
+      "destinationSHA256": "b27a590d39bc3acecac5407f161c20f0cf5080813083a0b4919f7a54d9a74a43",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/runtime_management.go",
+      "destination": "service/firewall/runtime_management.go",
+      "originalBlob": "a1d774c8fd2d39b1330bea88a38c292cb969f0cb",
+      "originalSHA256": "4a154ad00e2db8449c2b8502752e1cbc375efd9ea25febe6b6c5ab01af55ca9e",
+      "destinationSHA256": "abf0809330401f74999ae29fb8bafe5b687dc626f8870d89e6357042aa2762bf",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/runtime_restore.go",
+      "destination": "service/firewall/runtime_restore.go",
+      "originalBlob": "9da149a08ba4c57f8f15558973267b7dd007d0f4",
+      "originalSHA256": "00ad9120823ddc08560433571de0da25980382304936e37ba50dad0d15d43962",
+      "destinationSHA256": "a6eb922c9134ff9b0d78fd53e036e2772c84983a12e48d89c496874af8860def",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/types.go",
+      "destination": "service/firewall/types.go",
+      "originalBlob": "1aab83392f21c63be0b29d3a9c28771ee9370112",
+      "originalSHA256": "75cecb7f98e86f9ce6d6e6fedc72b7e23df7125a9e92be58bdcda8a6d15c6b9e",
+      "destinationSHA256": "df3229e84e6f3747ca72fd21368718c40f6c9a5287a920e764269dd822fcef04",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/udp_policy.go",
+      "destination": "service/firewall/udp_policy.go",
+      "originalBlob": "5a690735cedf3ecf283b5b1a3dc3e79913c536fe",
+      "originalSHA256": "1de0e16dfb2c9d53acbda0b643bb20e204944b9f294ef697cebd8d2cffc86bfd",
+      "destinationSHA256": "1de0e16dfb2c9d53acbda0b643bb20e204944b9f294ef697cebd8d2cffc86bfd",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/workflow.go",
+      "destination": "service/firewall/workflow.go",
+      "originalBlob": "0198132d7df6d517c9a676339fbd696bae5cafda",
+      "originalSHA256": "2e23d0bc2f19b5107a1f20ceb93c9c5c979310e11cc0b767aad2da3243851775",
+      "destinationSHA256": "719ac3ec408796bfdd08ba1e8d232015972d000645176b8dfe1b8f2d184e30ed",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/firewall/testdata/endpoint_ipv4_tcp.golden.nft",
+      "destination": "service/firewall/testdata/endpoint_ipv4_tcp.golden.nft",
+      "originalBlob": "e1d03280312dcfe88e4575c0ddda606d1805c8e4",
+      "originalSHA256": "8eb230ee6896e0ebbc6af34d92f80b6bb87ce3aabf7f81155c264abcd705d661",
+      "destinationSHA256": "8eb230ee6896e0ebbc6af34d92f80b6bb87ce3aabf7f81155c264abcd705d661",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/durable_store.go",
+      "destination": "service/udpguard/durable_store.go",
+      "originalBlob": "b718609bceef378f3f49c0c0ec2578ce134e3598",
+      "originalSHA256": "a841eeb443baf46872051e1aefea5108d341fd3d1203951d0822465772e3eeb9",
+      "destinationSHA256": "303eb90b70405234c9b597689ca0dada606f881b4f41743d4be65650a043c679",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/health_registry.go",
+      "destination": "service/udpguard/health_registry.go",
+      "originalBlob": "34ff6a619b8d37a5cb38ce835a40d820652caa74",
+      "originalSHA256": "825e5a4a1c9544ace1367f8e8ac3f0676ce9398637b788861c1ece70f0d40890",
+      "destinationSHA256": "825e5a4a1c9544ace1367f8e8ac3f0676ce9398637b788861c1ece70f0d40890",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/owners.go",
+      "destination": "service/udpguard/owners.go",
+      "originalBlob": "e5611e3d4c54b763ce394702357da496bdf1ab2a",
+      "originalSHA256": "935300c68d6e2cb34e7cae4cc6c7d1e47c6f61985877681c1340f12bd71dae38",
+      "destinationSHA256": "935300c68d6e2cb34e7cae4cc6c7d1e47c6f61985877681c1340f12bd71dae38",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/owners_test.go",
+      "destination": "service/udpguard/owners_test.go",
+      "originalBlob": "1a3579906539f71853f112bb8824d12e88d49397",
+      "originalSHA256": "4c7de14618350fd05ce17aa157fc1d1bfd4669b948c8b66d8059a21e8134614d",
+      "destinationSHA256": "07707b6ad8dffc69e469a61e4c1e9b6e3332203a91699e2b2f0820ec03024ba4",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/plain_udp_probe.go",
+      "destination": "service/udpguard/plain_udp_probe.go",
+      "originalBlob": "177ecd36b01cc516bcccbd19249a900aa8ade9c3",
+      "originalSHA256": "bd5fd8ce23bc01c11eda5a77ea01b4612d1db287acaa06964263e172ae02453c",
+      "destinationSHA256": "bd5fd8ce23bc01c11eda5a77ea01b4612d1db287acaa06964263e172ae02453c",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/planner.go",
+      "destination": "service/udpguard/planner.go",
+      "originalBlob": "6b48ada8e60c0784a9e6f7b59f280d2131d6920f",
+      "originalSHA256": "e3630f0b737002e193185e39932cffb6adfee3bf3dc97c6d37f6e7e2aa41fc76",
+      "destinationSHA256": "735fa915286d24ccd8874807cd12c21374ab2ffd0b92ffd750c788f302c1dd4b",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/planner_test.go",
+      "destination": "service/udpguard/planner_test.go",
+      "originalBlob": "cbe3e18ee46b7b20b06af275ba41409aba041aa8",
+      "originalSHA256": "4befcc51df8fcfc366ae4bb172590566f5ac453405ce8ec24925d2dbf91fe954",
+      "destinationSHA256": "be8bed08d901e95f0b7c786365e3298f42b478667d2d8da13ee9472e4e472024",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/receipt_expiration_test.go",
+      "destination": "service/udpguard/receipt_expiration_test.go",
+      "originalBlob": "5892c04bdf09b54926a01b6b49e396a4fb5e23d2",
+      "originalSHA256": "f6624ea76dcfafaf81bc7e718bac51b949f2437f3903d24ac929fa009594b2a9",
+      "destinationSHA256": "93ed1f34c9877d5c2a86db7e94aca4ac5b222093bf8a55591b6dfc94de1a8d88",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/types.go",
+      "destination": "service/udpguard/types.go",
+      "originalBlob": "ff8681ddd289b8e770a731b24604cbe3b5915a76",
+      "originalSHA256": "eb9c2f80a06ab08e3bbf29d2f7af27600a9837897f39a3db14ac5d3984d2fc95",
+      "destinationSHA256": "16b28bbb443606bafb89f7eba8469cf6d91f7547f44731b33b79c318d7b6c294",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/workflow.go",
+      "destination": "service/udpguard/workflow.go",
+      "originalBlob": "d042443fe25d653c08fd5ff979c3e844884caea4",
+      "originalSHA256": "a453f8eac460a2342eaf121fef617ce13206f383b19b24c7438935704c2aa42d",
+      "destinationSHA256": "dc86e8727aea1f1aa32404c44c27f65865289a918d90cf54c2fdc705085cf47e",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/workflow_health.go",
+      "destination": "service/udpguard/workflow_health.go",
+      "originalBlob": "94e30283c92b8af4b1b0d143f7f96ded1471b6d9",
+      "originalSHA256": "a0880a5f0f2f9daf079065d83ac6bc6da443dc43dd5d58e5420f84c9192d4f6f",
+      "destinationSHA256": "d50ec858915b804d783e686d053f5f2e50606ccc0517955e78a31dba3ba0fff6",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/workflow_state.go",
+      "destination": "service/udpguard/workflow_state.go",
+      "originalBlob": "6cadefa66d69fc106f3e4d6a60c69a572a2c0669",
+      "originalSHA256": "7db330a7b49be9946b7d66c6268f565dd775c98c30c1eda6bbb6ffd959dab39d",
+      "destinationSHA256": "e0788ed4879c6e5447a536fd675f74b8a34f7a195b0891f1679692030a2bce39",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/udpguard/workflow_state_test.go",
+      "destination": "service/udpguard/workflow_state_test.go",
+      "originalBlob": "331ee9c293d5f77fa73a3db058ed7536bc3ebf5d",
+      "originalSHA256": "dbff887b2f7a56a7cccec8ab33384d9995271128d2d4f5d420afc0ba44837566",
+      "destinationSHA256": "4f56f428d272e67fe67b1c7a66b87b3a3500b1579e9ca900d7efe6a273c89e82",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/architecture_test.go",
+      "destination": "service/nativefallback/architecture_test.go",
+      "originalBlob": "77f0c7c10933176135875fd52b82c0c509eca055",
+      "originalSHA256": "a7fe49523cd7f2a7acbb0ad1c4e915b007f08e099dc84c699d297a4f436df216",
+      "destinationSHA256": "a7fe49523cd7f2a7acbb0ad1c4e915b007f08e099dc84c699d297a4f436df216",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/idempotency.go",
+      "destination": "service/nativefallback/idempotency.go",
+      "originalBlob": "09edc7bc35c67bb21f234c0758f419634fd2df16",
+      "originalSHA256": "d2ddc6b98500e9d9804caf92a673d7d9c2a18a3dfe92a7f9fa9349ed450b2ba5",
+      "destinationSHA256": "d2ddc6b98500e9d9804caf92a673d7d9c2a18a3dfe92a7f9fa9349ed450b2ba5",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/interfaces.go",
+      "destination": "service/nativefallback/interfaces.go",
+      "originalBlob": "19aec126aa8507f50871bf4ce47d31a911593808",
+      "originalSHA256": "13f0c315630de085aee02b2f953cdacf8ba9176e109d7dda4a569c7e2ca56ac8",
+      "destinationSHA256": "2c34124797bd4d259a7509edbc03d16898849218f0f08a3207c284da6f45bfd6",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/management.go",
+      "destination": "service/nativefallback/management.go",
+      "originalBlob": "cef6db5b2e5870bd0ba64a0b9efca9c07c3efa5a",
+      "originalSHA256": "1d434cd9ed59571ad09635826bcb75dbc91265b09091f506f2ba993626cc3e43",
+      "destinationSHA256": "1d434cd9ed59571ad09635826bcb75dbc91265b09091f506f2ba993626cc3e43",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/owners_test.go",
+      "destination": "service/nativefallback/owners_test.go",
+      "originalBlob": "46b652da49e4e6c0963ea926de0629b39454cd3f",
+      "originalSHA256": "14ef6031d5d518759afb2b6a2fa3cbd3ca58aa3cb526c92ace2204dfd53f11b3",
+      "destinationSHA256": "14ef6031d5d518759afb2b6a2fa3cbd3ca58aa3cb526c92ace2204dfd53f11b3",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/planner.go",
+      "destination": "service/nativefallback/planner.go",
+      "originalBlob": "b2f02bf47dfbb0542417ab52dc2b6fa5f46ca49f",
+      "originalSHA256": "3852bc3c7af23ed158a402bb510ca5de85ec4a75ec1945efe786262a3c992d80",
+      "destinationSHA256": "709f25eb52377b7f7195b35502ec4b4b171422a3df683563da696294853aa010",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/provider_calls.go",
+      "destination": "service/nativefallback/provider_calls.go",
+      "originalBlob": "9cc7f732c54623bf1cb7bc98b72f28ed4daae78d",
+      "originalSHA256": "6d3986ed699dd954fc988ca25dcb32a729fcdf81413a36acd7d3b834de210562",
+      "destinationSHA256": "6d3986ed699dd954fc988ca25dcb32a729fcdf81413a36acd7d3b834de210562",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/reconcile.go",
+      "destination": "service/nativefallback/reconcile.go",
+      "originalBlob": "aa293ff275c0cde2226a3c62d0ee0a36a3fbb821",
+      "originalSHA256": "b675322faf72209f7e5cdedf2e520fa547ad1f6589f1839c0c002b1df9494c30",
+      "destinationSHA256": "087a75634d56178f333460391f5ece19824daa277211440d15b2e7881c823a0e",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/rollback.go",
+      "destination": "service/nativefallback/rollback.go",
+      "originalBlob": "668847a55231618c1fcd949d16e86c4685a28725",
+      "originalSHA256": "a25ad736e698278184ebf958edbd2f1b6f103b4aa66c49cd64a4ba539f3df356",
+      "destinationSHA256": "34a73f3244ad267d40f0ef204509b56dccf3dfd680ba5631c18b37376d930a3f",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/target_reader.go",
+      "destination": "service/nativefallback/target_reader.go",
+      "originalBlob": "33ce53a29df86582f78bdb47de4494a2d98ddba1",
+      "originalSHA256": "fc2d7b8ccee89ae8226564703f27368be0ff8809cafa341f040f84824f0e9df5",
+      "destinationSHA256": "fc2d7b8ccee89ae8226564703f27368be0ff8809cafa341f040f84824f0e9df5",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/workflow.go",
+      "destination": "service/nativefallback/workflow.go",
+      "originalBlob": "982c1c0c6cb3fbe3ccd2fea41defe38b70796f46",
+      "originalSHA256": "715f14b606384f5217caf39a91cc681fb411b647c4b39bf0fbe91efaf7906918",
+      "destinationSHA256": "67e447515b754462ca71766e0a17eb82a92514b9d3fadca6cc06e0dae31dc32e",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/nativefallback/workflow_types.go",
+      "destination": "service/nativefallback/workflow_types.go",
+      "originalBlob": "7106dd8921e92dadfbfc8484dfbe1a74b93ee7c0",
+      "originalSHA256": "79ab869721c0c36d246b1111fa4dfbf2814fb804ea1edfcdaa33f3928d3d0736",
+      "destinationSHA256": "21f454fb8718ce57b89e0f784c9438ee4db2aeaca145a1c8c12bc84aaa3a1d35",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/adapter.go",
+      "destination": "service/fronting/adapter.go",
+      "originalBlob": "7b2fda55ec7b94a164b2b3492de507f308f9b880",
+      "originalSHA256": "9aaf5e7a3d0c98aba5024648a8a6b9166ab042a991914ba97b12b57c2ba50466",
+      "destinationSHA256": "9aaf5e7a3d0c98aba5024648a8a6b9166ab042a991914ba97b12b57c2ba50466",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/durable_store.go",
+      "destination": "service/fronting/durable_store.go",
+      "originalBlob": "85d5fad43cf5a4029efb404445e27ad10a219a3f",
+      "originalSHA256": "8e4e7f20e5efd496d50e322059c3a64d7a1f8e37b09d76e72e2e64c3be7c6632",
+      "destinationSHA256": "46d65fbb4085d3ec9c1a79fbe1e2c4edf87732ffe6395fd6b7864bb39d0f3b03",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/fixed_l4_health_v2_test.go",
+      "destination": "service/fronting/fixed_l4_health_v2_test.go",
+      "originalBlob": "eb0ba46b6c49f6c924baa04ae03e2c741e9b1e64",
+      "originalSHA256": "2a427d2a94730aa730b0df141672a09d2811805ea179af63927bd03758e6a4b3",
+      "destinationSHA256": "2a427d2a94730aa730b0df141672a09d2811805ea179af63927bd03758e6a4b3",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/fixed_l4_v2.go",
+      "destination": "service/fronting/fixed_l4_v2.go",
+      "originalBlob": "7f70ba2abb7f730620c83c196a0baf4265de411a",
+      "originalSHA256": "8a95ad997b2e56bdf38d4309d428b77873bcf94e19820b1a5f588faeef9d3768",
+      "destinationSHA256": "8a95ad997b2e56bdf38d4309d428b77873bcf94e19820b1a5f588faeef9d3768",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/fronting_test.go",
+      "destination": "service/fronting/fronting_test.go",
+      "originalBlob": "df9a5e26c5fb72dd7401b1a59743c846b3449065",
+      "originalSHA256": "adfccb14f6734ef7787105100ceaa2578dad2005f78d9afa311577da12bbcdb2",
+      "destinationSHA256": "adfccb14f6734ef7787105100ceaa2578dad2005f78d9afa311577da12bbcdb2",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/inspection_owner_test.go",
+      "destination": "service/fronting/inspection_owner_test.go",
+      "originalBlob": "75556b19bfc92c88bd8459db78c5221f8e15ac4a",
+      "originalSHA256": "4f4d6e6dfeb6750c524d4463560e274e4806d17a8ec149455f2fd7ddc7af6974",
+      "destinationSHA256": "7b854d696837f53c47974cd9bc059ed92c4ab5add98efc68951a92e18311131a",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/nginx.go",
+      "destination": "service/fronting/nginx.go",
+      "originalBlob": "75cdb1b719acdead8658964ac0b1f4c84927da52",
+      "originalSHA256": "4b3614879821044b8936615cf2efec94c9d8b99d7e459e6e27b8ad8dd3573d78",
+      "destinationSHA256": "4b3614879821044b8936615cf2efec94c9d8b99d7e459e6e27b8ad8dd3573d78",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/planner_architecture_test.go",
+      "destination": "service/fronting/planner_architecture_test.go",
+      "originalBlob": "76432c843c1ac17bbf76a134f786e304a94c5fe3",
+      "originalSHA256": "6220cb324ad3f50b221c041a3b8fc3495927042297438e758d476db2a2e1d831",
+      "destinationSHA256": "b3d401e60b12cbc7c90fdf5919dc07abdc468a19e9b5817e3f4b625144a8108f",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/planner_contracts_v2.go",
+      "destination": "service/fronting/planner_contracts_v2.go",
+      "originalBlob": "680f7cbec4406232eab0af949172d0df92df453f",
+      "originalSHA256": "10e1f9bc4212e477b33101473090db4499ef18d22966cfe20477c65b1adc27b6",
+      "destinationSHA256": "10e1f9bc4212e477b33101473090db4499ef18d22966cfe20477c65b1adc27b6",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/planner_v2.go",
+      "destination": "service/fronting/planner_v2.go",
+      "originalBlob": "02641c0afa7b1a38d248992e7ca98d8d99b956cb",
+      "originalSHA256": "ace34298b805998117d194303f237197783b03bb2d46911c0ef43eaf4a201f9d",
+      "destinationSHA256": "ace34298b805998117d194303f237197783b03bb2d46911c0ef43eaf4a201f9d",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/preview.go",
+      "destination": "service/fronting/preview.go",
+      "originalBlob": "83438ccbdbc46664d78ae5bc26fc63e51bf8216e",
+      "originalSHA256": "5ea1403970422c8cc9107cd68fd330c62e9285e0a66f6143c4b5e00ae33fc37a",
+      "destinationSHA256": "5ea1403970422c8cc9107cd68fd330c62e9285e0a66f6143c4b5e00ae33fc37a",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/production_health_v2.go",
+      "destination": "service/fronting/production_health_v2.go",
+      "originalBlob": "782972dc4168d41548ee7bad32bdb903cba43a37",
+      "originalSHA256": "36a89a33bddb8fe23e44924a4e6cb1235be51f8a39588264edf072a00877400f",
+      "destinationSHA256": "36a89a33bddb8fe23e44924a4e6cb1235be51f8a39588264edf072a00877400f",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/production_runtime_v2.go",
+      "destination": "service/fronting/production_runtime_v2.go",
+      "originalBlob": "7dfa6e2c5c5e4255765753d0edcd42f50ca5fa5c",
+      "originalSHA256": "27055b4d7006702fc2ea9f6aca119289d22d3f8aa2074c3eaea87225738b7684",
+      "destinationSHA256": "97f24e99635d4e223210436ff9f4aa0ecab83871f48b6bfe3cce66aebb5675a8",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/receipt_expiration_test.go",
+      "destination": "service/fronting/receipt_expiration_test.go",
+      "originalBlob": "7ee1c106df44e916d3b6947948c697f39029ac67",
+      "originalSHA256": "1a06926c54d0d2128b56efb4f9f58463ce753eef86639f89788b30205dd10837",
+      "destinationSHA256": "59e8c1670136e910f68f896252612a1a9ec2ce6af54b994d2dc697e09efb38d2",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/reconcile_v2.go",
+      "destination": "service/fronting/reconcile_v2.go",
+      "originalBlob": "866775c46e08228c09b41e0693fae936af405aa4",
+      "originalSHA256": "3656d870e31462be7ae8f44d5f4297bb2c2dde686a1f2150d089c1508fc7d184",
+      "destinationSHA256": "2fba5355f2470dd19ebec1abfa5d9ba4c25d615c6146e0696c52ca72307a5798",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/recovery.go",
+      "destination": "service/fronting/recovery.go",
+      "originalBlob": "eb4655387b724c2a604fe00880886d1923b334d1",
+      "originalSHA256": "5186b8566ae5617a5cba47f6f6672a6c1eb12db9c1b18618927fa58751aaaef3",
+      "destinationSHA256": "5446134da603c3d5f35c9419e60f27de9fb577a63bbc177b1cc6d5ca071de865",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/recovery_owner_test.go",
+      "destination": "service/fronting/recovery_owner_test.go",
+      "originalBlob": "7ff0624dac1144dcf0048cb80b9b514b8c50cfc8",
+      "originalSHA256": "8baad4c86cf370d88b22b0ed7b16c73aab6807bcb07841bd170449d7cad8d348",
+      "destinationSHA256": "b5d0fac25d46c3babeb23f698f4b9e996d84deb7a11986acb90b25082cc0bf08",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/runtime_identity_v2.go",
+      "destination": "service/fronting/runtime_identity_v2.go",
+      "originalBlob": "65ba080a1e134203526d97c4d6c64bc3f97918e6",
+      "originalSHA256": "df3056e071e5b4ad6f8a47144ec1e0adc701de0e0898b3f66a0bd3e290453aca",
+      "destinationSHA256": "df3056e071e5b4ad6f8a47144ec1e0adc701de0e0898b3f66a0bd3e290453aca",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/runtime_planner_v2_test.go",
+      "destination": "service/fronting/runtime_planner_v2_test.go",
+      "originalBlob": "ed35c8c5101555d48713eabe0e1dc4cbf43e85d8",
+      "originalSHA256": "fb737256aa4a2b978eb3f8f74f2716a644aebd5204f9558c120b766722ac7532",
+      "destinationSHA256": "fb737256aa4a2b978eb3f8f74f2716a644aebd5204f9558c120b766722ac7532",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/semantic_v2.go",
+      "destination": "service/fronting/semantic_v2.go",
+      "originalBlob": "23f7428bb56fd9e704d58510f0715fd097c0fbed",
+      "originalSHA256": "6d59d280580ac76fcb0a3d3eedb5489cc4fe39e0009eb622361e972b71e05c6f",
+      "destinationSHA256": "50239c56e128e4c05550bff10b9e9874825d8fc17708a29a4fdc2a715a5881e8",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/sni_health_v2.go",
+      "destination": "service/fronting/sni_health_v2.go",
+      "originalBlob": "33e5d273d1780ccf3633241bb53ff61faf06ae63",
+      "originalSHA256": "26d894120bb9072d452a83098f6fd7ccfbffbe2e2386735ed4a8bf1edc60560f",
+      "destinationSHA256": "26d894120bb9072d452a83098f6fd7ccfbffbe2e2386735ed4a8bf1edc60560f",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/sni_preread_v2.go",
+      "destination": "service/fronting/sni_preread_v2.go",
+      "originalBlob": "1c083cc52c5984d5cb5edf4458aa1b8c933f5f79",
+      "originalSHA256": "f4459a3d0a67fd702136fd9e8f67b1023cd9e73cfb357127331f4d25ec3353c5",
+      "destinationSHA256": "f4459a3d0a67fd702136fd9e8f67b1023cd9e73cfb357127331f4d25ec3353c5",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/target_authority_v2.go",
+      "destination": "service/fronting/target_authority_v2.go",
+      "originalBlob": "ebb1a02c4f61738cb20bc7b5ac644588bdd38f72",
+      "originalSHA256": "b34774eadcdbdfc7129ef2a47c50e18aab3cba4e675512801aceca6dbdb91eb9",
+      "destinationSHA256": "b34774eadcdbdfc7129ef2a47c50e18aab3cba4e675512801aceca6dbdb91eb9",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/templates.go",
+      "destination": "service/fronting/templates.go",
+      "originalBlob": "472e71fce56e351569db34cb4321cfd478b959c6",
+      "originalSHA256": "c10086c8d5c7ce02d228715330bcaaac26d774f3d2c666b69f0bbd93cce4968d",
+      "destinationSHA256": "c10086c8d5c7ce02d228715330bcaaac26d774f3d2c666b69f0bbd93cce4968d",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/workflow.go",
+      "destination": "service/fronting/workflow.go",
+      "originalBlob": "d72742e7b19f8c00b16a1c3f680896a967dacf2a",
+      "originalSHA256": "892659d579c14dfa1069e41273e0e739ebf69f4cf0d08238a4a144cafdfa6ae5",
+      "destinationSHA256": "be0991c2910eeac2b86b8e0aa17dafc3298bc6c2c482b65110fe9b3760fdecc6",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/workflow_candidate_v2.go",
+      "destination": "service/fronting/workflow_candidate_v2.go",
+      "originalBlob": "e9600b90daef8cae587a232d45a5fe878d35b34a",
+      "originalSHA256": "5f090847639e230f01224ed2605feb8e37bec78c454027aad529824793e68a3b",
+      "destinationSHA256": "5f090847639e230f01224ed2605feb8e37bec78c454027aad529824793e68a3b",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/workflow_v2.go",
+      "destination": "service/fronting/workflow_v2.go",
+      "originalBlob": "ca6aa8574b95de0783cc29678f542f5c2059c951",
+      "originalSHA256": "8c55c7d9c02db83dd08427da7d159a31892fbfe719b6424148b286dfbae22bc6",
+      "destinationSHA256": "b1009b4e66f5caae5a1ae76dbea784e34d343fe45982123546cbacec01550fd4",
+      "adaptation": "Canonical module import identity and formatting; existing policy behavior retained",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/workflow_v2_architecture_test.go",
+      "destination": "service/fronting/workflow_v2_architecture_test.go",
+      "originalBlob": "d2fdeed412950b61ffe73023f775c529cab1059d",
+      "originalSHA256": "6bc9c4d77e9908f16dccd7426dbd215b3a91d8d3b6133abb33610298e762ecef",
+      "destinationSHA256": "6bc9c4d77e9908f16dccd7426dbd215b3a91d8d3b6133abb33610298e762ecef",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/service/fronting/testdata/fronting.golden.conf",
+      "destination": "service/fronting/testdata/fronting.golden.conf",
+      "originalBlob": "5bb9b256be3c81a4bc7ec2db8b1ae8586c7d9a6f",
+      "originalSHA256": "2de5a8263f74d3ce1e8b7d25cd3d5522d29037a4370d24960b705c0c26dc01f2",
+      "destinationSHA256": "2de5a8263f74d3ce1e8b7d25cd3d5522d29037a4370d24960b705c0c26dc01f2",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/api.test.ts",
+      "destination": "frontend/api.test.ts",
+      "originalBlob": "fca27230249ffc67609d7a08df9b1c1229a4c787",
+      "originalSHA256": "fd30dee6662b086d545c2aa036bc74bfebe9246f10dae8d1beb048fdb29998bb",
+      "destinationSHA256": "fd30dee6662b086d545c2aa036bc74bfebe9246f10dae8d1beb048fdb29998bb",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/api.ts",
+      "destination": "frontend/api.ts",
+      "originalBlob": "99c8df024b2d3a840f3dcf29444a7014225ad55f",
+      "originalSHA256": "8cd5811e490ca075084884a402975514adb7c6cf7913b19601367e966f5f30dd",
+      "destinationSHA256": "8cd5811e490ca075084884a402975514adb7c6cf7913b19601367e966f5f30dd",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/contractInspectionLogic.test.ts",
+      "destination": "frontend/contractInspectionLogic.test.ts",
+      "originalBlob": "89881d02a223e8a2619dd6d69eed31cde1d8565f",
+      "originalSHA256": "c66b2a8990148ad74da093329c30a0b368a46e2e349501ee1ca55ab42b9bc8c7",
+      "destinationSHA256": "c66b2a8990148ad74da093329c30a0b368a46e2e349501ee1ca55ab42b9bc8c7",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/contractInspectionLogic.ts",
+      "destination": "frontend/contractInspectionLogic.ts",
+      "originalBlob": "099317f5ae7fac090bfc3a8613cc13f301441407",
+      "originalSHA256": "265c78e4bf30486eb030ced23716b3d742dd45b7a598a5f88e648ae13d60dfee",
+      "destinationSHA256": "265c78e4bf30486eb030ced23716b3d742dd45b7a598a5f88e648ae13d60dfee",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/frontingLogic.test.ts",
+      "destination": "frontend/frontingLogic.test.ts",
+      "originalBlob": "75fd9b3bc61c633de02102c7cf74b16a3f41dbe4",
+      "originalSHA256": "164045e7e7ba7b17c162de06ff5ea93b433950c0aa95683a70d11a2b6c983de2",
+      "destinationSHA256": "164045e7e7ba7b17c162de06ff5ea93b433950c0aa95683a70d11a2b6c983de2",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/frontingLogic.ts",
+      "destination": "frontend/frontingLogic.ts",
+      "originalBlob": "fb6d0eca119f5363bee0e9126f46d911e4c612c4",
+      "originalSHA256": "3b79094ae0e9d928d7c306e8f8b7b2877ebd711b9cdca3989594d1046d5bf586",
+      "destinationSHA256": "3b79094ae0e9d928d7c306e8f8b7b2877ebd711b9cdca3989594d1046d5bf586",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/idempotency.test.ts",
+      "destination": "frontend/idempotency.test.ts",
+      "originalBlob": "56d562fcb2bc792a98c8bffa7a1d860a7c5f4c12",
+      "originalSHA256": "248fbf2af418a82707c5320dac87e1dbe5b572a52d4cabb801117de27f682d57",
+      "destinationSHA256": "248fbf2af418a82707c5320dac87e1dbe5b572a52d4cabb801117de27f682d57",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/idempotency.ts",
+      "destination": "frontend/idempotency.ts",
+      "originalBlob": "629e1a1a8924717e211c94116e62575b6aefeae1",
+      "originalSHA256": "e76aadf99365d75a71d410f2ea52841de595c408bac99f9bae3c9307d30667c7",
+      "destinationSHA256": "e76aadf99365d75a71d410f2ea52841de595c408bac99f9bae3c9307d30667c7",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/index.test.ts",
+      "destination": "frontend/index.test.ts",
+      "originalBlob": "7672067015175d6bffe2869d32d726d78a43202c",
+      "originalSHA256": "9c4e18b383ecbed2220874977731f0ecbb7f5e41260f6ee8fa1870f0c64e1b7f",
+      "destinationSHA256": "9c4e18b383ecbed2220874977731f0ecbb7f5e41260f6ee8fa1870f0c64e1b7f",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/index.ts",
+      "destination": "frontend/index.ts",
+      "originalBlob": "cc5be83e7711f579bfb4d5bdd41622c67140855a",
+      "originalSHA256": "677543d0f262c0777d08c70c9984b3d52b2dfe82bd58ca6382b02779a23631e1",
+      "destinationSHA256": "677543d0f262c0777d08c70c9984b3d52b2dfe82bd58ca6382b02779a23631e1",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/interceptionTypes.ts",
+      "destination": "frontend/interceptionTypes.ts",
+      "originalBlob": "2037eab78259a3f4c5cc770fa59f715e9ef92b11",
+      "originalSHA256": "6b436f5d4d0d2e8722bf0e2527d6d3b89e355d27d6ad0df2a34d835898f81ef8",
+      "destinationSHA256": "6b436f5d4d0d2e8722bf0e2527d6d3b89e355d27d6ad0df2a34d835898f81ef8",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/interceptionUI.test.ts",
+      "destination": "frontend/interceptionUI.test.ts",
+      "originalBlob": "91039f24922e32fdda804bd05dd8ecaf3bcb75c5",
+      "originalSHA256": "3dfbb98ab759bd29c90ad07a87e17e970c06b8ca898c49bdd72f94a8ce935cae",
+      "destinationSHA256": "3dfbb98ab759bd29c90ad07a87e17e970c06b8ca898c49bdd72f94a8ce935cae",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/locales/en.ts",
+      "destination": "frontend/locales/en.ts",
+      "originalBlob": "f9f3406db3adf32c34cbc29eefdbd667a3ef29bf",
+      "originalSHA256": "14bd2d01441b99ce849b9e560315d34ec4c903cd2fbfa6ab2f252fd70a2f6726",
+      "destinationSHA256": "14bd2d01441b99ce849b9e560315d34ec4c903cd2fbfa6ab2f252fd70a2f6726",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/locales/ru.ts",
+      "destination": "frontend/locales/ru.ts",
+      "originalBlob": "9f33940bc47a2e63c78877bf1c8c297607583307",
+      "originalSHA256": "7e78ce592e6877abde9cb96c5a7aa01357886a3cabb96670082a7e9e58824873",
+      "destinationSHA256": "7e78ce592e6877abde9cb96c5a7aa01357886a3cabb96670082a7e9e58824873",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/localProxyLogic.test.ts",
+      "destination": "frontend/localProxyLogic.test.ts",
+      "originalBlob": "45174ff0a3698e03c3b9514dd0a246b4025d91f0",
+      "originalSHA256": "3cf8c82b488dae0073280afc2db9308537894d5f4aa8ef55e660fae1b5d4a720",
+      "destinationSHA256": "3cf8c82b488dae0073280afc2db9308537894d5f4aa8ef55e660fae1b5d4a720",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/localProxyLogic.ts",
+      "destination": "frontend/localProxyLogic.ts",
+      "originalBlob": "f667bfc7cd6515383e5c0f60d9d939d817654a3c",
+      "originalSHA256": "f1a0a0297686d3d07ea12046fbbcfcec42384282219930b3bd46584b2b290180",
+      "destinationSHA256": "f1a0a0297686d3d07ea12046fbbcfcec42384282219930b3bd46584b2b290180",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/localProxyTypes.ts",
+      "destination": "frontend/localProxyTypes.ts",
+      "originalBlob": "6f57552b03df18f065962f8f33d4302c351a6be8",
+      "originalSHA256": "ca94c3890a6d4548c294a46e7b1ea6063fb414130ba137e99ba4ba0c25c1ad85",
+      "destinationSHA256": "ca94c3890a6d4548c294a46e7b1ea6063fb414130ba137e99ba4ba0c25c1ad85",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/nativeFallbackLogic.test.ts",
+      "destination": "frontend/nativeFallbackLogic.test.ts",
+      "originalBlob": "0527bab8c47b849a251c4a199767bdb75c0bb415",
+      "originalSHA256": "07f65d5dd3ef35f470c00f332be3ec2696cb73f3931eff5695f050c90f0264c2",
+      "destinationSHA256": "07f65d5dd3ef35f470c00f332be3ec2696cb73f3931eff5695f050c90f0264c2",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/nativeFallbackLogic.ts",
+      "destination": "frontend/nativeFallbackLogic.ts",
+      "originalBlob": "b7a16b98601110058144024cdcf6a2be70bc06c3",
+      "originalSHA256": "697b567cc85d735bb78f7dd3e541b3b7e3e5f41b13762438b9e5e5c6d077ac00",
+      "destinationSHA256": "697b567cc85d735bb78f7dd3e541b3b7e3e5f41b13762438b9e5e5c6d077ac00",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/tests/e2e/panel-operability.mjs",
+      "destination": "frontend/tests/e2e/panel-operability.mjs",
+      "originalBlob": "86246dc91bb6dfa03f7b4da9e83f00235b43fb5a",
+      "originalSHA256": "90ac8708152b0cd9aa7d206a2c542e0ea9059bbe4df58af543f1ee1423517b8e",
+      "destinationSHA256": "90ac8708152b0cd9aa7d206a2c542e0ea9059bbe4df58af543f1ee1423517b8e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/types.ts",
+      "destination": "frontend/types.ts",
+      "originalBlob": "08a7a291f81b87648312cfeebded88c0a7b3a009",
+      "originalSHA256": "c4fb2eb5b4c637d7376d3d2ab4a6835264422010ab17d5c34e93974af22bc6e6",
+      "destinationSHA256": "c4fb2eb5b4c637d7376d3d2ab4a6835264422010ab17d5c34e93974af22bc6e6",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/udpGuardLogic.test.ts",
+      "destination": "frontend/udpGuardLogic.test.ts",
+      "originalBlob": "6f026e31bce993f0f4061f2c972c1c5f4ac36941",
+      "originalSHA256": "ad2347f2355fd7801da1efb83c4035a78e24c53da3ac5be21ac76dadda2be9fe",
+      "destinationSHA256": "ad2347f2355fd7801da1efb83c4035a78e24c53da3ac5be21ac76dadda2be9fe",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/udpGuardLogic.ts",
+      "destination": "frontend/udpGuardLogic.ts",
+      "originalBlob": "0b90a35809f8cab6a525e1570135a510356a1edc",
+      "originalSHA256": "e02c62068899b17838fd84f046a38e18402b9c45186a0d2d8ab2054fbccc1381",
+      "destinationSHA256": "e02c62068899b17838fd84f046a38e18402b9c45186a0d2d8ab2054fbccc1381",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/udpGuardTypes.ts",
+      "destination": "frontend/udpGuardTypes.ts",
+      "originalBlob": "563b054521c8cdb526b9fe03e74fe82772ab3890",
+      "originalSHA256": "a99e97c8dfc5d5eb28c0d00d3e6d9f0184ef6618d3327116330424935f716aaa",
+      "destinationSHA256": "a99e97c8dfc5d5eb28c0d00d3e6d9f0184ef6618d3327116330424935f716aaa",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/useLocalProxyGuard.ts",
+      "destination": "frontend/useLocalProxyGuard.ts",
+      "originalBlob": "d030d4af7bed7fef667b6a6834aee6b3908d4daa",
+      "originalSHA256": "9a5719384b2ea934105b2de3eaea3c586abcd206606d78bd2f28c46ed86c5bac",
+      "destinationSHA256": "9a5719384b2ea934105b2de3eaea3c586abcd206606d78bd2f28c46ed86c5bac",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/useServerProtection.ts",
+      "destination": "frontend/useServerProtection.ts",
+      "originalBlob": "35f579c0691033c7b79e60550280b6dab76f2f73",
+      "originalSHA256": "47161f443b9233a568faf354be42a0f6d6b15e6ed49544c0cf540926a31f5f8e",
+      "destinationSHA256": "47161f443b9233a568faf354be42a0f6d6b15e6ed49544c0cf540926a31f5f8e",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/useUDPDirectGuard.ts",
+      "destination": "frontend/useUDPDirectGuard.ts",
+      "originalBlob": "a90c24c8f05f545c32bd1a2651029a53201c94fe",
+      "originalSHA256": "54c280b7f0575bee3554f5b0ceceef7cad9fc000d958ee33163d7e4030ad2675",
+      "destinationSHA256": "54c280b7f0575bee3554f5b0ceceef7cad9fc000d958ee33163d7e4030ad2675",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/ContractInspection.vue",
+      "destination": "frontend/views/ContractInspection.vue",
+      "originalBlob": "78ecd7e900a0c1925b5b6c90f1b2939f489e67d6",
+      "originalSHA256": "79d3f8bcd63c1492402c4a4910bf393e98e4e6c8a0e3832171733548acf54566",
+      "destinationSHA256": "79d3f8bcd63c1492402c4a4910bf393e98e4e6c8a0e3832171733548acf54566",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/FrontingControl.vue",
+      "destination": "frontend/views/FrontingControl.vue",
+      "originalBlob": "0fa97bcae2280b64b87d61aeeb003629c74dfab3",
+      "originalSHA256": "7fcf8d1e3a68569d069e37b12b8ecbec0bbbcf2db9eb12ba943b0df131715551",
+      "destinationSHA256": "7fcf8d1e3a68569d069e37b12b8ecbec0bbbcf2db9eb12ba943b0df131715551",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/InboundProtectionEditor.vue",
+      "destination": "frontend/views/InboundProtectionEditor.vue",
+      "originalBlob": "643ed6f9aaa4a5b355d8093126ef33d69de2c703",
+      "originalSHA256": "7919a8738836af52e633bd21f050f3ed1340bc230d718c5864fa73709e6a01ad",
+      "destinationSHA256": "7919a8738836af52e633bd21f050f3ed1340bc230d718c5864fa73709e6a01ad",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/InboundProtectionStatus.vue",
+      "destination": "frontend/views/InboundProtectionStatus.vue",
+      "originalBlob": "b04717f86a66e0d2c8e4e5d2e1f1650b283cc1da",
+      "originalSHA256": "ff544b6a6e090214666119246eb1d7aea13bada2d20671e3eceaf8c00cf57cbb",
+      "destinationSHA256": "ff544b6a6e090214666119246eb1d7aea13bada2d20671e3eceaf8c00cf57cbb",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/InterceptionGuard.vue",
+      "destination": "frontend/views/InterceptionGuard.vue",
+      "originalBlob": "b4325e470a0c6a74a1117f5c8ff2b336edd4ec44",
+      "originalSHA256": "d0b3705d78a3e43b9ee4c0abc8124c2b91c1f4b3cfb2c0b1fb24b3453cb4f1af",
+      "destinationSHA256": "d0b3705d78a3e43b9ee4c0abc8124c2b91c1f4b3cfb2c0b1fb24b3453cb4f1af",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/LocalProxyGuard.vue",
+      "destination": "frontend/views/LocalProxyGuard.vue",
+      "originalBlob": "d9eee67435305b6e355df58aa566112b91f6c8d5",
+      "originalSHA256": "a67e15cfb8f221bceecf67a48a72a7183bcba712858032a765d6285058417b1a",
+      "destinationSHA256": "a67e15cfb8f221bceecf67a48a72a7183bcba712858032a765d6285058417b1a",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/ServerProtection.scss",
+      "destination": "frontend/views/ServerProtection.scss",
+      "originalBlob": "9251ce7a1c66b9ecc58b101659df1bbed294ea1a",
+      "originalSHA256": "c6c1eb5e310b3f4ecd6a37e49fb9a3a91eb28269b9befb72ccde061f42e7a7c6",
+      "destinationSHA256": "c6c1eb5e310b3f4ecd6a37e49fb9a3a91eb28269b9befb72ccde061f42e7a7c6",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/ServerProtection.vue",
+      "destination": "frontend/views/ServerProtection.vue",
+      "originalBlob": "2b9d40b61b44ccb4df71d4b71334e21a442b0a35",
+      "originalSHA256": "240e334d8c399107377f9cea52314554ee415ebec3367e449092c600f012f4b5",
+      "destinationSHA256": "38971e341ea550dd9e69787a99ae3b0dbebbfd44030d9ae0e5687943e591dfbf",
+      "adaptation": "Explicit unknown event parameter types; runtime behavior unchanged",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/frontend/views/UDPDirectGuard.vue",
+      "destination": "frontend/views/UDPDirectGuard.vue",
+      "originalBlob": "8b28a7ad94623e7c4953815176d325bb9f74a7ba",
+      "originalSHA256": "7acfb65366f865d216668ea46a121746a5b8a1c7edce1d706e8762c43a03e8db",
+      "destinationSHA256": "7acfb65366f865d216668ea46a121746a5b8a1c7edce1d706e8762c43a03e8db",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "components/server-protection/component.json",
+      "destination": "component.json",
+      "originalBlob": "7fd8d6b071570958529ece20788e8df66d4dd75e",
+      "originalSHA256": "a5a860882a7655334cf1739a072a423875cb961511791f5206bfbbb65685d2ec",
+      "destinationSHA256": "a5a860882a7655334cf1739a072a423875cb961511791f5206bfbbb65685d2ec",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>"
+      ]
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "originalBlob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "originalSHA256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "destinationSHA256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "adaptation": "Unchanged source",
+      "authors": [
+        "Alireza Ahmadi <alireza7@gmail.com>"
+      ]
+    }
+  ],
+  "authoredFiles": {
+    ".gitattributes": "4b25569b87a00533f038d2b308c6706bb037743b143404f455ff91c251d47946",
+    ".github/workflows/source.yml": "9428ceb0c70ce54becbfaee43c97d85fabebc474cd357d6f1966fb86419e4e43",
+    ".gitignore": "125cfa97aea6825017ffc6fbe18b90dcb1db4e9d176b92b56f4d32dda076df06",
+    "architecture/source_test.go": "dfe475fd27ae82fd070915dc0232d46631849500150ccf2e57b174fdd8b2c8f1",
+    "descriptor.go": "b418b870dd8db7c9688a89ad496d301f5af667690ee5bfeb8ad39f6795c82939",
+    "descriptor_test.go": "669723e25ac63a615aa66486c773047b5ea8b9c3e8366e7c96237aa5cc118535",
+    "frontend/vite.config.mts": "597c79efe3afec67ddde719245b5e0573265f715984b1001dfbed6cf9e572dfa",
+    "frontend/vitest.config.mts": "5be083eb47f1e40f42db579beaa8db9021be08c3dcc9cfdf24db7d5b69f9b8e0",
+    "go.mod": "2ef1c3030149ef42a7c568c8f029c6486ae247f0ee893e3ca36f6ccc3a986575",
+    "go.sum": "6c3ac93508cbf3729c91dceeeb2ee97e73b2f9443e5d23c35f1074909bbae650",
+    "HOST_UI_PIN.json": "1bb198be19f3865881a9949a80d38c2ee1931382eb8080c911b0b66dfbd48dc6",
+    "NOTICE": "8fa2271830af68f16b7a38fcea02cf115ada28ac3d57f0ce253d5aaa3fdf63df",
+    "README.md": "f0fef62aff5ab99753614651e9fb70a323ce98cf4dd18e45f312a10dcb81ad75",
+    "scripts/check-frontend.mjs": "d15423c7af45a0520437b873666038b8a1f737c4fd3132f26b4acd57a2c814b0",
+    "scripts/check-source.mjs": "a47141f74c59dba07a06549bc6e8e784c2af85ee762ac9d6f2c52cd9a2cd9dc6"
+  }
+}

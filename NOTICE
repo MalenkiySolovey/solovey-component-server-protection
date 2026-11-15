@@ -1,0 +1,10 @@
+Server Protection is derived from the Server Protection implementation in
+MalenkiySolovey/solovey-ui, distributed under GPL-3.0-only.
+
+Original authorship and commit metadata are preserved in the filtered Git
+ancestry. SOURCE_PROVENANCE.json maps the original source blobs to their
+adapted destinations. Existing source notices remain in their source files.
+
+The original LICENSE is included byte-for-byte. Public Solovey Host and
+golang.org/x/sys modules are resolved normally and retain their own licenses;
+their source is not copied into this repository.
