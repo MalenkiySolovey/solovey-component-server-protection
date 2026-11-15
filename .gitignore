@@ -1,0 +1,5 @@
+/.frontend-check/
+/.host-ui/
+**/node_modules/
+*.test
+*.test.exe
